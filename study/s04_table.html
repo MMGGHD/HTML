@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- table 태그 속성중 border를 사용하면 2줄칸이 만들어 진다. -->
+    <!-- 게시판형태의 화면을 만들때 주로 사용된다. -->
+    <!-- tr은 테이블의 row(줄수)를 뜻한다. -->
+    <!-- th는 테이블 Column의 제목을 뜻한다. -->
+    <!-- td는 테이블 Column의 내용을 뜻한다. -->
+    <table border>
+      <tr>
+        <th>번호</th>
+        <th>상품</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>바나나</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>사과</td>
+      </tr>
+    </table>
+    <hr />
+    <table border>
+      <tr>
+        <th>번호</th>
+        <th>상품</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>바나나</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>사과</td>
+      </tr>
+      <tr>
+        <!-- colspan="2" << 이 Column이 2칸을 차치한다. -->
+        <td colspan="2">확인</td>
+      </tr>
+    </table>
+    <hr />
+    <table border>
+        <tr>
+          <th>번호</th>
+          <th>상품</th>
+        </tr>
+        <tr>
+          <td rowspan="5">1</td>
+          <td rowspan="4">바나나</td>
+        </tr>
+        <tr>
+          <td>사과</td>
+        </tr>
+        <tr>
+          <td rowspan="3">사과</td>
+        </tr>
+        <tr>
+          <td rowspan="4">사과</td>
+        </tr>
+        <tr>
+          <td>사과</td>
+        </tr>
+        <tr>
+          <td>사과</td>
+          <td>과사</td>
+        </tr>
+  </body>
+</html>

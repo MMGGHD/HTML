@@ -1,0 +1,7 @@
+h1 {
+  /*선택자를 지정하고 중괄호를 적어준다. */
+  background-color: blueviolet; /* 중괄호 내부에 속성들을 적어준다. */
+  color: white; /* 속성명 : 속성값 ; */
+  text-align: center; /* 사용하려는 속성을 모를때 구글에 'css속성' 검색 */
+  height: 45px; /* 자주쓰거나 마음에 드는 속성은 블로그에 저장 */
+}

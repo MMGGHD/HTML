@@ -1,0 +1,88 @@
+<!-- 자동으로 만들어지는 코드를 스니펫이라고 한다. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .my-div {
+        background-color: green;
+        /* display: inline; */
+      }
+      .my-span {
+        background-color: violet;
+        /* display: block; */
+      }
+      .parent {
+        background-color: aqua;
+      }
+      textarea {
+        width: 20%;
+        height: 6.25em;
+        resize: none;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 블록과 인라인 -->
+    <!-- div 태그는 태생적으로 display:block; 속성이다 -->
+    <!-- block 속성은 태그를 한 줄 다 차지하게 한다. -->
+    <div class="my-div">블록 속성</div>
+    <div>
+      <!-- span태그는 태생적으로 display:inline; 속성이다. -->
+      <!-- inline속성은 한 줄에 여러 태그를 사용가능하다 -->
+      <a href="https://naver.com">
+        <span class="my-span">네이버</span>
+      </a>
+      <a href="https://google.com">
+        <span class="my-span">구글 </span>
+      </a>
+    </div>
+    <!-- 부모 자식 형제 -->
+    <!-- parent 클래스가있는 div는 2개의 자식이 있다. -->
+    <!-- 자식1과 자식2 div는 형제다(위치상 동급이다)-->
+    <!-- 자식1과 자식2의 부모는 parent 클래스가 있는 div다 -->
+    <!-- parent 클래스에 태그를 적용하면 하위에 내용에도 적용된다. -->
+    <div class="parent">
+      <a href="https://namu.wiki/w/HTML">
+        <img src="나무위키 물음표.svg" alt="자식1" />
+      </a>
+      <div>자식2</div>
+      <div class="child3">
+        <div>
+          <strong><em>손자</em>손</strong>자1
+        </div>
+      </div>
+    </div>
+    <!-- 줄바꿈, 들여쓰기 -->
+    <!-- prettier로 반자동 정렬 가능 (ctrl+Alt+L) -->
+    <!-- 정렬이 안되거나 하단 Prettier에 빨간불이 떠 있다 = 오류가 있다 -->
+
+    <form action="#">
+      <fieldset >
+        <legend>legend</legend>
+        <label for="T1">name </label>
+        <input type="text" id="T1" placeholder="입력하세요" /><br />
+        <label for="T2">number</label>
+        <input type="number" id="T2" maxlength="10" placeholder="최대 10숫자" /><br />
+      </fieldset>
+      <fieldset >
+        소감문<br/>
+        <textarea name="소감" id="" cols="30" ows="30" placeholder="가나다라" ></textarea>
+        <label for="S1">별점</label>
+        <select name="별점" id="S1">
+          <option value="5">5</option>
+          <option value="4">4</option>
+          <option value="3">3</option>
+          <option value="2">2</option>
+          <option value="1">1</option>
+        </select>
+        <label for="I1">정보</label>
+        <input type="button" value="나무위키로">
+        </a>
+      </fieldset>
+    </form>
+  </body>
+</html>

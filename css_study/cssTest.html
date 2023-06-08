@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        width: 500px;
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-areas:
+          "header header header "
+          "main . ."
+          "footer footer .";
+        column-gap: 5px;
+        row-gap: 5px;
+        place-items: initial;
+      }
+
+      .i1 {
+        background-color: aqua;
+      }
+
+      .i2 {
+        background-color: rgb(97, 73, 163);
+      }
+      .i3 {
+        background-color: rgb(89, 173, 86);
+      }
+      .i4 {
+        background-color: rgb(175, 177, 58);
+      }
+      .i5 {
+        background-color: rgb(216, 212, 194);
+      }
+      .i6 {
+        background-color: rgb(223, 13, 31);
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item i1">1</div>
+      <div class="item i2">2</div>
+      <div class="item i4">4</div>
+      <div class="item i5">5</div>
+      <div class="item i6">6</div>
+    </div>
+  </body>
+</html>
