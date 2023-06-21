@@ -1,0 +1,7 @@
+import { render } from "./ic-language-polygon.svg?vue&type=template&id=067aba7e"
+const script = {}
+
+import exportComponent from "/home/runner/work/hera-client/hera-client/node_modules/vue-loader/dist/exportHelper.js"
+const __exports__ = /*#__PURE__*/exportComponent(script, [['render',render]])
+
+export default __exports__

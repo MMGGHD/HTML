@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 72 px;
+  border: 0.01px solid rgb(240, 240, 240);
+}
+.center-cover-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contents {
+  display: flex;
+  width: 60%;
+  flex-wrap: 2;
+  flex-shrink: 0;
+}
+.blink {
+  flex-wrap: 1;
+  width: 19.335%;
+}
+.blink2 {
+  flex-wrap: 1;
+  width: 20.325%;
+}
+.logoimage {
+  display: flex;
+  height: 63px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 80px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.nav-menu {
+  display: flex;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.member {
+  padding-right: 2px;
+  flex-direction: row-reverse;
+  flex-grow: 1;
+}
+.txt01 {
+  display: flex;
+  font-size: 17px;
+  font-weight: bold;
+}
+.txt02 {
+  display: flex;
+  font-size: 14px;
+  font-weight: 540;
+  color: rgb(90, 90, 90);
+  letter-spacing: -1px;
+  padding-bottom: 2px;
+  margin-right: 4px;
+}
+.txt03 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 9px;
+  font-size: 12.5px;
+}
+.txt04 {
+  padding-bottom: 7px;
+}
+.txt05 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #3285ff;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  width: 61%;
+  padding-left: 5px;
+}
+.tap01 {
+  display: flex;
+  height: 115px;
+  align-items: end;
+  margin-bottom: 33px;
+}
+.txt06 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -2.6px;
+}
+.txt07 {
+  color: #3285ff;
+}
+.tap02 {
+  display: flex;
+  justify-content: space-between;
+}
+.txt08 {
+  width: 58.8%;
+  height: 340px;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: -2.1px;
+  line-height: 150%;
+}
+.tap03 {
+  margin-left: 8px;
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.tap05 {
+  display: flex;
+  height: 50px;
+  justify-content: space-evenly;
+}
+.tap06 {
+  color: rgb(130, 130, 130);
+  font-size: 15px;
+  font-weight: bold;
+  width: 33.3%;
+  display: flex;
+  align-items: end;
+  text-align: center;
+  flex-grow: 1;
+  border-bottom: 4px solid #e9e9e9;
+  justify-content: space-evenly;
+  padding-bottom: 8px;
+}
+.tap07 {
+  font-size: 16px;
+  font-weight: 900;
+  color: #3285ff;
+  border-bottom: 3px solid #547bfc;
+  letter-spacing: -1px;
+}
+.tap04 {
+  display: flex;
+  align-items: center;
+  height: 310px;
+  background-color: #1d1d1b;
+  border-radius: 18px;
+}
+.tap08 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+  color: #535353;
+  letter-spacing: -1px;
+}
+.select {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  width: 215px;
+  color: #3285ff;
+  background-color: #fbfbfd;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 10px;
+  margin-top: 45px;
+  border-radius: 3px;
+  border: 0.5px solid #d8e2eb;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tap09 {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  height: 43px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.ad {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 300px;
+}
+.i1 {
+  width: 760px;
+  height: 100%;
+  background-image: url("./images/PRGMS_Main-Banner_KDC_1440x552___1_.png");
+}
+.i2 {
+  margin-top: 35px;
+  margin-left: 65px;
+  display: flex;
+  flex-direction: column;
+  width: 760px;
+  height: 100%;
+}
+.txt10 {
+  padding-left: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -2.1px;
+  line-height: 150%;
+  color: white;
+}
+.txt11 {
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -2.1px;
+  color: white;
+}
+.txt12 {
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #c9c9c8;
+  margin-bottom: 35px;
+}
+.txt13 {
+  display: flex;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: -2.1px;
+}
+.txt14 {
+  display: flex;
+  height: 100%;
+  background-image: url(./images/Screenshot_2.png);
+}
